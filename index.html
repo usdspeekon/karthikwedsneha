@@ -74,7 +74,6 @@
     border: 1px solid rgba(201,150,58,0.15);
   }
 
-  /* Corner ornaments */
   .corner {
     position: absolute;
     width: 60px;
@@ -183,7 +182,6 @@
   .ticker-inner {
     display: inline-flex;
     animation: ticker 30s linear infinite;
-    gap: 0;
   }
 
   .ticker-item {
@@ -193,11 +191,6 @@
     text-transform: uppercase;
     color: var(--deep);
     padding: 0 40px;
-  }
-
-  .ticker-dot {
-    color: var(--maroon);
-    padding: 0 10px;
   }
 
   @keyframes ticker {
@@ -211,14 +204,6 @@
     text-align: center;
     position: relative;
     background: var(--cream);
-  }
-
-  .floral-top {
-    display: block;
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 8px;
-    opacity: 0.5;
   }
 
   .section-eyebrow {
@@ -306,15 +291,6 @@
     font-weight: 400;
   }
 
-  .events-title p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 10px;
-    letter-spacing: 0.5em;
-    color: var(--gold);
-    text-transform: uppercase;
-    margin-top: 8px;
-  }
-
   .events-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -328,9 +304,7 @@
     border: 1px solid rgba(201,150,58,0.15);
     padding: 36px 32px;
     text-align: center;
-    position: relative;
     transition: background 0.3s, transform 0.3s;
-    cursor: default;
   }
 
   .event-card:hover {
@@ -338,11 +312,7 @@
     transform: translateY(-3px);
   }
 
-  .event-icon {
-    font-size: 28px;
-    margin-bottom: 16px;
-    display: block;
-  }
+  .event-icon { font-size: 28px; margin-bottom: 16px; display: block; }
 
   .event-name {
     font-family: 'IM Fell English', serif;
@@ -372,15 +342,12 @@
     text-decoration: none;
     border-bottom: 1px solid rgba(201,150,58,0.4);
     padding-bottom: 2px;
-    transition: color 0.2s, border-color 0.2s;
+    transition: color 0.2s;
   }
 
-  .event-map-link:hover {
-    color: var(--gold-light);
-    border-color: var(--gold);
-  }
+  .event-map-link:hover { color: var(--gold-light); }
 
-  /* ── COUPLE SECTION ── */
+  /* ── COUPLE ── */
   .couple-section {
     background: var(--bg);
     padding: 80px 20px;
@@ -397,12 +364,9 @@
     font-size: clamp(36px, 8vw, 56px);
     color: var(--deep);
     font-weight: 400;
-    line-height: 1.1;
   }
 
-  .couple-intro h2 span {
-    color: var(--gold);
-  }
+  .couple-intro h2 span { color: var(--gold); }
 
   .couple-intro p {
     margin-top: 24px;
@@ -412,7 +376,6 @@
     line-height: 1.8;
   }
 
-  /* Portrait cards */
   .portraits {
     display: flex;
     gap: 40px;
@@ -426,7 +389,6 @@
     flex: 1;
     min-width: 240px;
     max-width: 320px;
-    position: relative;
   }
 
   .portrait-frame {
@@ -454,14 +416,9 @@
     justify-content: center;
     flex-direction: column;
     gap: 12px;
-    color: rgba(201,150,58,0.3);
   }
 
-  .portrait-placeholder svg {
-    width: 80px;
-    height: 80px;
-    opacity: 0.4;
-  }
+  .portrait-placeholder svg { width: 80px; height: 80px; opacity: 0.4; }
 
   .portrait-placeholder p {
     font-family: 'Josefin Sans', sans-serif;
@@ -544,13 +501,9 @@
     box-shadow: 0 12px 40px rgba(37,211,102,0.3);
   }
 
-  .rsvp-btn svg {
-    width: 20px;
-    height: 20px;
-    fill: white;
-  }
+  .rsvp-btn svg { width: 20px; height: 20px; fill: white; }
 
-  /* ── THINGS TO KNOW ══════════ */
+  /* ── TIPS ── */
   .tips-section {
     background: var(--cream);
     padding: 80px 20px;
@@ -594,11 +547,7 @@
     text-align: center;
   }
 
-  .tip-icon {
-    font-size: 36px;
-    margin-bottom: 16px;
-    display: block;
-  }
+  .tip-icon { font-size: 36px; margin-bottom: 16px; display: block; }
 
   .tip-title {
     font-family: 'Josefin Sans', sans-serif;
@@ -651,9 +600,7 @@
     position: relative;
   }
 
-  .countdown-unit {
-    text-align: center;
-  }
+  .countdown-unit { text-align: center; }
 
   .countdown-num {
     font-family: 'IM Fell English', serif;
@@ -692,23 +639,7 @@
     position: relative;
   }
 
-  /* ── FOOTER ══════════ */
-  footer {
-    background: var(--deep);
-    border-top: 1px solid rgba(201,150,58,0.12);
-    padding: 24px 20px;
-    text-align: center;
-  }
-
-  footer p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 9px;
-    letter-spacing: 0.4em;
-    text-transform: uppercase;
-    color: rgba(250,245,236,0.25);
-  }
-
-  /* ── INSTAGRAM ══════════ */
+  /* ── INSTAGRAM ── */
   .instagram-section {
     background: var(--bg);
     padding: 60px 20px;
@@ -723,10 +654,7 @@
     line-height: 1.1;
   }
 
-  .instagram-section h2 em {
-    font-style: italic;
-    color: var(--gold);
-  }
+  .instagram-section h2 em { font-style: italic; color: var(--gold); }
 
   .instagram-btn {
     display: inline-flex;
@@ -749,6 +677,79 @@
     box-shadow: 0 12px 40px rgba(220,39,67,0.3);
   }
 
+  /* ── AUDIO PLAYER ── */
+  .audio-player {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 1000;
+    background: var(--maroon);
+    border: 1px solid rgba(201,150,58,0.4);
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: background 0.25s, box-shadow 0.25s, transform 0.2s;
+  }
+
+  .audio-player:hover {
+    background: #7a1e1e;
+    transform: translateY(-2px);
+  }
+
+  .audio-label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    white-space: nowrap;
+  }
+
+  .audio-bars {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    height: 18px;
+  }
+
+  .audio-bar {
+    width: 3px;
+    background: var(--gold);
+    border-radius: 2px;
+    animation: barBounce 0.8s ease-in-out infinite alternate;
+  }
+
+  .audio-bar:nth-child(1) { height: 6px;  animation-delay: 0s; }
+  .audio-bar:nth-child(2) { height: 14px; animation-delay: 0.15s; }
+  .audio-bar:nth-child(3) { height: 10px; animation-delay: 0.3s; }
+  .audio-bar:nth-child(4) { height: 16px; animation-delay: 0.1s; }
+  .audio-bar:nth-child(5) { height: 8px;  animation-delay: 0.25s; }
+
+  .audio-bars.paused .audio-bar {
+    animation-play-state: paused;
+    height: 4px !important;
+  }
+
+  @keyframes barBounce {
+    from { transform: scaleY(0.4); }
+    to   { transform: scaleY(1); }
+  }
+
+  .audio-player::before, .audio-player::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-color: var(--gold);
+    border-style: solid;
+    opacity: 0.5;
+  }
+  .audio-player::before { top: -1px; left: -1px; border-width: 2px 0 0 2px; }
+  .audio-player::after  { bottom: -1px; right: -1px; border-width: 0 2px 2px 0; }
+
   /* ── SCROLL ANIMATIONS ── */
   .fade-in {
     opacity: 0;
@@ -761,9 +762,86 @@
     transform: translateY(0);
   }
 
+  /* ── TAP OVERLAY ── */
+  #tapOverlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(26,10,0,0.92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+
+  .tap-box {
+    border: 1px solid rgba(201,150,58,0.4);
+    padding: 48px 56px;
+    text-align: center;
+    max-width: 340px;
+    position: relative;
+    animation: fadeUp 0.8s ease both;
+  }
+
+  .tap-box::before { content: ''; position: absolute; top: -1px; left: -1px; width: 16px; height: 16px; border-top: 2px solid var(--gold); border-left: 2px solid var(--gold); }
+  .tap-box::after  { content: ''; position: absolute; bottom: -1px; right: -1px; width: 16px; height: 16px; border-bottom: 2px solid var(--gold); border-right: 2px solid var(--gold); }
+
+  .tap-om {
+    font-family: 'Noto Serif Devanagari', serif;
+    font-size: 24px;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+
+  .tap-names {
+    font-family: 'IM Fell English', serif;
+    font-size: 40px;
+    color: var(--cream);
+    margin-bottom: 8px;
+    line-height: 1.1;
+  }
+
+  .tap-date {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 36px;
+  }
+
+  .tap-btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--cream);
+    border: 1px solid rgba(201,150,58,0.5);
+    padding: 14px 28px;
+    display: inline-block;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .tap-btn:hover {
+    background: rgba(201,150,58,0.1);
+    border-color: var(--gold);
+  }
+
+  .tap-sub {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: rgba(250,245,236,0.35);
+    margin-top: 20px;
+  }
+
   @media (max-width: 600px) {
+    .tap-box { padding: 36px 28px; margin: 20px; }
     .hero-border { inset: 10px; }
-    .corner-tl, .corner-tr, .corner-bl, .corner-br { width: 36px; height: 36px; }
+    .corner { width: 36px; height: 36px; }
     .corner-tl { top: 10px; left: 10px; }
     .corner-tr { top: 10px; right: 10px; }
     .corner-bl { bottom: 10px; left: 10px; }
@@ -773,24 +851,28 @@
 </head>
 <body>
 
+<!-- ══════════ TAP TO OPEN OVERLAY ══════════ -->
+<div id="tapOverlay">
+  <div class="tap-box">
+    <div class="tap-om">ॐ</div>
+    <div class="tap-names">Karthik<br>&amp; Sai Neha</div>
+    <div class="tap-date">15 · March · 2026</div>
+    <div class="tap-btn">♪ &nbsp; Tap to Open Invitation</div>
+    <div class="tap-sub">With music</div>
+  </div>
+</div>
+
 <!-- ══════════ HERO ══════════ -->
 <section class="hero">
   <div class="hero-mandala">
-    
     <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <style>
-          .m { fill: none; stroke: #C9963A; stroke-width: 1; }
-        </style>
-      </defs>
-      <!-- Concentric circles -->
+      <defs><style>.m{fill:none;stroke:#C9963A;stroke-width:1;}</style></defs>
       <circle class="m" cx="200" cy="200" r="180"/>
       <circle class="m" cx="200" cy="200" r="155"/>
       <circle class="m" cx="200" cy="200" r="130"/>
       <circle class="m" cx="200" cy="200" r="100"/>
       <circle class="m" cx="200" cy="200" r="70"/>
       <circle class="m" cx="200" cy="200" r="40"/>
-      <!-- Radial lines 16 -->
       <g stroke="#C9963A" stroke-width="0.7">
         <line x1="200" y1="20" x2="200" y2="380"/>
         <line x1="20" y1="200" x2="380" y2="200"/>
@@ -801,7 +883,6 @@
         <line x1="200" y1="45" x2="200" y2="355" transform="rotate(112.5 200 200)"/>
         <line x1="200" y1="45" x2="200" y2="355" transform="rotate(157.5 200 200)"/>
       </g>
-      <!-- Petal shapes -->
       <g fill="none" stroke="#C9963A" stroke-width="0.8">
         <ellipse cx="200" cy="130" rx="18" ry="50" transform="rotate(0 200 200)"/>
         <ellipse cx="200" cy="130" rx="18" ry="50" transform="rotate(45 200 200)"/>
@@ -826,7 +907,6 @@
     <div class="divider-line">
       <span></span><div class="divider-diamond"></div><span></span>
     </div>
-    
     <div class="hero-names">
       <div class="hero-name">Karthik</div>
       <div class="weds-text">weds</div>
@@ -837,45 +917,27 @@
     </div>
     <p class="hero-date">March 15th, 2026 &nbsp;·&nbsp; Kohinoor of Andhra Pradesh - Anantapur</p>
   </div>
-  
 </section>
 
 <!-- ══════════ TICKER ══════════ -->
 <div class="ticker" aria-hidden="true">
   <div class="ticker-inner">
-    <!-- Repeated twice for seamless loop -->
-    <span class="ticker-item">Karthik Weds Sai Neha</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">15 March 2026</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">Anantapur</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">You Are Invited</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">Karthik Weds Sai Neha</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">15 March 2026</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">Anantapur</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">You Are Invited</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">Karthik Weds Sai Neha</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">15 March 2026</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">Anantapur</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">You Are Invited</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">Karthik Weds Sai Neha</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">15 March 2026</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">Anantapur</span>
-    <span class="ticker-item">·</span>
-    <span class="ticker-item">You Are Invited</span>
-    <span class="ticker-item">·</span>
+    <span class="ticker-item">Karthik Weds Sai Neha</span><span class="ticker-item">·</span>
+    <span class="ticker-item">15 March 2026</span><span class="ticker-item">·</span>
+    <span class="ticker-item">Anantapur</span><span class="ticker-item">·</span>
+    <span class="ticker-item">You Are Invited</span><span class="ticker-item">·</span>
+    <span class="ticker-item">Karthik Weds Sai Neha</span><span class="ticker-item">·</span>
+    <span class="ticker-item">15 March 2026</span><span class="ticker-item">·</span>
+    <span class="ticker-item">Anantapur</span><span class="ticker-item">·</span>
+    <span class="ticker-item">You Are Invited</span><span class="ticker-item">·</span>
+    <span class="ticker-item">Karthik Weds Sai Neha</span><span class="ticker-item">·</span>
+    <span class="ticker-item">15 March 2026</span><span class="ticker-item">·</span>
+    <span class="ticker-item">Anantapur</span><span class="ticker-item">·</span>
+    <span class="ticker-item">You Are Invited</span><span class="ticker-item">·</span>
+    <span class="ticker-item">Karthik Weds Sai Neha</span><span class="ticker-item">·</span>
+    <span class="ticker-item">15 March 2026</span><span class="ticker-item">·</span>
+    <span class="ticker-item">Anantapur</span><span class="ticker-item">·</span>
+    <span class="ticker-item">You Are Invited</span><span class="ticker-item">·</span>
   </div>
 </div>
 
@@ -884,22 +946,16 @@
   <div class="fade-in">
     <p class="section-eyebrow">With Divine Blessings</p>
     <div class="divider-line"><span></span><div class="divider-diamond" style="background:var(--gold)"></div><span></span></div>
-
     <p class="blessings-text">
       With the heavenly blessings of<br>
       <em>Shri Thiriveedhi Venkata Kishore & smt. Meera Bhai</em>
       <span class="blessings-sep">——</span>
       <!-- <em>Smt. Lakshmi & Shri Gopalakrishnan</em> -->
     </p>
-
     <p class="invite-headline">Invite You to Join the Celebrations of</p>
-
     <div class="invite-couple">
-      Karthik
-      <em>&amp;</em>
-      Sai Neha
+      Karthik<em>&amp;</em>Sai Neha
     </div>
-
     <p class="invite-parents">
       Son of Shri Thiriveedhi Venkata Kishore & smt. Meera Bhai<br>
       <!-- Daughter of Smt. Lakshmi & Shri R. Gopalakrishnan -->
@@ -913,71 +969,41 @@
     <p style="font-family:'Josefin Sans';font-size:10px;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;">On the Following Events</p>
     <h2>The Celebrations</h2>
   </div>
-
   <div class="events-grid">
     <div class="event-card fade-in">
       <span class="event-icon">🌿</span>
       <div class="event-name">Mehendi</div>
-      <div class="event-detail">
-        Friday, March 6th 2026<br>
-        The Leela Palace, Bengaluru<br>
-        5:00 PM Onwards
-      </div>
+      <div class="event-detail">Friday, March 6th 2026<br>The Leela Palace, Bengaluru<br>5:00 PM Onwards</div>
       <a class="event-map-link" href="https://maps.google.com" target="_blank">↗ See the Route</a>
     </div>
-
     <div class="event-card fade-in">
       <span class="event-icon">🌼</span>
       <div class="event-name">Haldi</div>
-      <div class="event-detail">
-        Saturday, March 7th 2026<br>
-        The Leela Palace, Bengaluru<br>
-        10:00 AM Onwards
-      </div>
+      <div class="event-detail">Saturday, March 7th 2026<br>The Leela Palace, Bengaluru<br>10:00 AM Onwards</div>
       <a class="event-map-link" href="https://maps.google.com" target="_blank">↗ See the Route</a>
     </div>
-
     <div class="event-card fade-in">
       <span class="event-icon">🎶</span>
       <div class="event-name">Sangeet</div>
-      <div class="event-detail">
-        Saturday, March 7th 2026<br>
-        The Leela Palace, Bengaluru<br>
-        7:00 PM Onwards
-      </div>
+      <div class="event-detail">Saturday, March 7th 2026<br>The Leela Palace, Bengaluru<br>7:00 PM Onwards</div>
       <a class="event-map-link" href="https://maps.google.com" target="_blank">↗ See the Route</a>
     </div>
-
-    <div class="event-card fade-in">
+    <!-- <div class="event-card fade-in">
       <span class="event-icon">💍</span>
       <div class="event-name">Engagement</div>
-      <div class="event-detail">
-        Sunday, March 8th 2026<br>
-        The Leela Palace, Bengaluru<br>
-        11:00 AM Onwards
-      </div>
+      <div class="event-detail">Sunday, March 8th 2026<br>The Leela Palace, Bengaluru<br>11:00 AM Onwards</div>
       <a class="event-map-link" href="https://maps.google.com" target="_blank">↗ See the Route</a>
-    </div>
-
+    </div> -->
     <div class="event-card fade-in">
       <span class="event-icon">🪔</span>
       <div class="event-name">Muhurtham</div>
-      <div class="event-detail">
-        Thursday, March 12th 2026<br>
-        Sri Shankara Kalyana Mandapa<br>
-        8:30 AM — 11:00 AM
-      </div>
+      <div class="event-detail">Thursday, March 12th 2026<br>Sri Shankara Kalyana Mandapa<br>8:30 AM — 11:00 AM</div>
       <a class="event-map-link" href="https://maps.google.com" target="_blank">↗ See the Route</a>
     </div>
-
     <div class="event-card fade-in">
       <span class="event-icon">✨</span>
       <div class="event-name">Reception</div>
-      <div class="event-detail">
-        Thursday, March 12th 2026<br>
-        The Leela Palace, Bengaluru<br>
-        7:00 PM Onwards
-      </div>
+      <div class="event-detail">Thursday, March 12th 2026<br>The Leela Palace, Bengaluru<br>7:00 PM Onwards</div>
       <a class="event-map-link" href="https://maps.google.com" target="_blank">↗ See the Route</a>
     </div>
   </div>
@@ -990,7 +1016,6 @@
     <h2>Bride <span>&</span> Groom</h2>
     <p>We are both so delighted that you are able to join us in celebrating what we hope will be one of the happiest days of our lives. The warmth and affection shown to us has touched us deeply. We look forward to welcoming you.</p>
   </div>
-
   <div class="portraits fade-in">
     <div class="portrait-card">
       <div class="portrait-frame">
@@ -1000,9 +1025,8 @@
         </div>
       </div>
       <div class="portrait-name">Karthik</div>
-      <div class="portrait-sub">Son of Thiriveedhi Family</div>
+      <div class="portrait-sub">Son of Venkataraman Family</div>
     </div>
-
     <div class="portrait-card">
       <div class="portrait-frame">
         <div class="portrait-placeholder">
@@ -1021,8 +1045,8 @@
   <div class="fade-in">
     <p class="section-eyebrow" style="color:var(--gold-light)">Kindly</p>
     <h2>RSVP</h2>
-    <p>Please let us know if you'll be joining us for the celebrations — we'd love to see you there.</p>
-    <a href="https://wa.me/919876543210?text=Hi!%20I'd%20love%20to%20attend%20Arjun%20%26%20Priya's%20wedding%20🌸" class="rsvp-btn" target="_blank">
+    <p>Please let us know if you've any quiries - we'd love to assit you</p>
+    <a href="https://wa.me/8296288210?text=Hi!%20I'd%20love%20to%20attend%20Karthik%20%26%Neha's%20wedding%20🌸" class="rsvp-btn" target="_blank">
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
       Message on WhatsApp
     </a>
@@ -1036,30 +1060,26 @@
     <h2>Things to Know</h2>
     <p>To help you feel at ease and enjoy every moment, here are a few details we'd love for you to know.</p>
   </div>
-
   <div class="tips-grid">
-    <div class="tip-card fade-in">
+    <!-- <div class="tip-card fade-in">
       <span class="tip-icon">#</span>
       <div class="tip-title">Hashtag</div>
-      <p class="tip-text">Share your photos with <strong>#KarthikWedsSaiNeha2026</strong></p>
-    </div>
-
+      <p class="tip-text">Share your photos with <strong>#karthikwedsneha2026</strong></p>
+    </div> -->
     <div class="tip-card fade-in">
       <span class="tip-icon">🌤️</span>
       <div class="tip-title">Weather</div>
       <p class="tip-text">Expect warm, sunny skies — temperatures around 28°C at the venue</p>
     </div>
-
     <div class="tip-card fade-in">
       <span class="tip-icon">🅿️</span>
       <div class="tip-title">Parking</div>
       <p class="tip-text">Complimentary valet parking available for all guests at the venue</p>
     </div>
-
     <div class="tip-card fade-in">
       <span class="tip-icon">🏨</span>
       <div class="tip-title">Stay</div>
-      <p class="tip-text">We recommend The Oberoi, Bengaluru — just 5 minutes from the venue</p>
+      <p class="tip-text">At the venue</p>
     </div>
   </div>
 </section>
@@ -1070,12 +1090,10 @@
     <p class="section-eyebrow">Follow</p>
     <h2>The <em>Action</em></h2>
     <p style="font-size:16px;color:rgba(26,10,0,0.55);font-style:italic;margin-top:12px;">Stay updated on all our celebrations as they unfold.</p>
-    <a href="https://instagram.com" class="instagram-btn" target="_blank">
-      <svg viewBox="0 0 24 24" fill="white" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-      </svg>
-      Follow on Instagram
-    </a>
+    <!-- <a href="https://instagram.com"  target="_blank"> -->
+      <!-- <svg viewBox="0 0 24 24" fill="white" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg> -->
+      <!-- Follow on Instagram -->
+    <!-- </a> -->
   </div>
 </section>
 
@@ -1107,47 +1125,80 @@
 </section>
 
 <!-- ══════════ FOOTER ══════════ -->
-<footer>
-  <p>© 2026 &nbsp;·&nbsp; Karthik & Sai Neha &nbsp;·&nbsp; With Love</p>
+<footer style="background:var(--deep);border-top:1px solid rgba(201,150,58,0.12);padding:24px 20px;text-align:center;">
+  <p style="font-family:'Josefin Sans',sans-serif;font-size:9px;letter-spacing:0.4em;text-transform:uppercase;color:rgba(250,245,236,0.25);">© 2026 &nbsp;·&nbsp; Karthik & Sai Neha &nbsp;·&nbsp; With Love</p>
 </footer>
 
-<div style="display:none;" ><audio src="https://framerusercontent.com/assets/q8x7MYVF61gOLfkcxdG7dlXjxw.mp3" loop="" class="framer-audio" preload="metadata" autoplay=""></audio><svg width="16" aria-label="pause audio" class="framer-audio-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style="margin-right: 0px; flex-shrink: 0; cursor: pointer;"><path d="M 3 3 C 3 2.448 3.448 2 4 2 L 6 2 C 6.552 2 7 2.448 7 3 L 7 13 C 7 13.552 6.552 14 6 14 L 4 14 C 3.448 14 3 13.552 3 13 Z" fill="#343434"></path><path d="M 9 3 C 9 2.448 9.448 2 10 2 L 12 2 C 12.552 2 13 2.448 13 3 L 13 13 C 13 13.552 12.552 14 12 14 L 10 14 C 9.448 14 9 13.552 9 13 Z" fill="#343434"></path></svg></div>
-<!-- <div style="position: fixed; bottom: 20px; right: 20px; width: 50px; height: 50px; border-radius: 8px; display: flex; justify-content: center; align-items: center; overflow: hidden; background: var(--maroon); padding: 0;"><audio src="https://framerusercontent.com/assets/q8x7MYVF61gOLfkcxdG7dlXjxw.mp3" loop="" class="framer-audio" preload="metadata" autoplay=""></audio><svg width="16" aria-label="pause audio" class="framer-audio-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style="margin-right: 0px; flex-shrink: 0; cursor: pointer;"><path d="M 3 3 C 3 2.448 3.448 2 4 2 L 6 2 C 6.552 2 7 2.448 7 3 L 7 13 C 7 13.552 6.552 14 6 14 L 4 14 C 3.448 14 3 13.552 3 13 Z" fill="#343434"></path><path d="M 9 3 C 9 2.448 9.448 2 10 2 L 12 2 C 12.552 2 13 2.448 13 3 L 13 13 C 13 13.552 12.552 14 12 14 L 10 14 C 9.448 14 9 13.552 9 13 Z" fill="#343434"></path></svg></div> -->
+<!-- ══════════ AUDIO PLAYER ══════════ -->
+<audio id="weddingAudio" src="https://framerusercontent.com/assets/q8x7MYVF61gOLfkcxdG7dlXjxw.mp3" loop preload="metadata"></audio>
+
+<div class="audio-player" id="audioPlayer" title="Toggle music" style="position:fixed;">
+  <div class="audio-bars paused" id="audioBars">
+    <div class="audio-bar"></div>
+    <div class="audio-bar"></div>
+    <div class="audio-bar"></div>
+    <div class="audio-bar"></div>
+    <div class="audio-bar"></div>
+  </div>
+  <span class="audio-label" id="audioLabel">Play</span>
+</div>
 
 <script>
+  // ── TAP OVERLAY — starts audio on first user gesture ──
+  const audio  = document.getElementById('weddingAudio');
+  const bars   = document.getElementById('audioBars');
+  const label  = document.getElementById('audioLabel');
+  const overlay = document.getElementById('tapOverlay');
+  let playing  = false;
+
+  overlay.addEventListener('click', () => {
+    audio.play().then(() => {
+      playing = true;
+      bars.classList.remove('paused');
+      label.textContent = 'Music';
+    }).catch(() => {
+      // audio failed (e.g. Drive CORS) but still dismiss overlay
+    });
+    overlay.style.opacity = '0';
+    overlay.style.transition = 'opacity 0.5s ease';
+    setTimeout(() => overlay.remove(), 500);
+  });
+
+  // ── AUDIO TOGGLE BUTTON ──
+  document.getElementById('audioPlayer').addEventListener('click', () => {
+    if (playing) {
+      audio.pause();
+      bars.classList.add('paused');
+      label.textContent = 'Play';
+    } else {
+      audio.play().catch(() => {});
+      bars.classList.remove('paused');
+      label.textContent = 'Music';
+    }
+    playing = !playing;
+  });
+
   // ── COUNTDOWN ──
   const weddingDate = new Date('2026-03-12T08:30:00+05:30');
 
   function updateCountdown() {
-    const now = new Date();
-    const diff = weddingDate - now;
+    const diff = weddingDate - new Date();
     if (diff <= 0) {
-      document.getElementById('cd-days').textContent = '00';
-      document.getElementById('cd-hours').textContent = '00';
-      document.getElementById('cd-mins').textContent = '00';
-      document.getElementById('cd-secs').textContent = '00';
+      ['cd-days','cd-hours','cd-mins','cd-secs'].forEach(id => document.getElementById(id).textContent = '00');
       return;
     }
-    const d = Math.floor(diff / 86400000);
-    const h = Math.floor((diff % 86400000) / 3600000);
-    const m = Math.floor((diff % 3600000) / 60000);
-    const s = Math.floor((diff % 60000) / 1000);
-    document.getElementById('cd-days').textContent = String(d).padStart(2, '0');
-    document.getElementById('cd-hours').textContent = String(h).padStart(2, '0');
-    document.getElementById('cd-mins').textContent = String(m).padStart(2, '0');
-    document.getElementById('cd-secs').textContent = String(s).padStart(2, '0');
+    document.getElementById('cd-days').textContent  = String(Math.floor(diff / 86400000)).padStart(2,'0');
+    document.getElementById('cd-hours').textContent = String(Math.floor((diff % 86400000) / 3600000)).padStart(2,'0');
+    document.getElementById('cd-mins').textContent  = String(Math.floor((diff % 3600000) / 60000)).padStart(2,'0');
+    document.getElementById('cd-secs').textContent  = String(Math.floor((diff % 60000) / 1000)).padStart(2,'0');
   }
 
   updateCountdown();
   setInterval(updateCountdown, 1000);
 
   // ── SCROLL ANIMATIONS ──
-  const obs = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.classList.add('visible');
-      }
-    });
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
   }, { threshold: 0.12 });
 
   document.querySelectorAll('.fade-in').forEach((el, i) => {
